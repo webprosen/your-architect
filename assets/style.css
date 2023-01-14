@@ -19,7 +19,7 @@ Common style for all element
 Header style here
 -------------- */
 .header{
-    background-color: #fff1e1;
+    background-color: #fff4e7;
 }
 
 
@@ -59,11 +59,13 @@ Header style here
     font-size: 45px;
     margin-bottom: 25px;
     line-height: 55px;
+    color: #131313;
 }
 .richtext-des{
     margin-bottom: 25px;
     max-width: 810px;
     margin: auto;
+    color: #727272;
 }
 .richtext-button{
     margin-top: 50px;
@@ -85,4 +87,65 @@ Header style here
 .hero-image img{
     width: 100%;
     display: inherit;
+}
+
+
+/* Quick list section */
+.quick-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quick-list-left{
+    width: 55%;
+}
+.four-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.quick-list-left-image {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+.quick-list-left-image img{
+    display: inherit;
+    width: 100%;
+}
+
+.quick-list-right{
+    width: 45%;
+    padding-left: 65px;
+}
+.quick-list-title{
+    font-size: 45px;
+    margin-bottom: 25px;
+    line-height: 55px;
+    color: #727272;
+}
+.quick-list-title strong{
+    color: #131313;
+}
+.quick-list-title span{
+    color: #FF900E;
+}
+.quick-list-des{
+    margin-bottom: 25px;
+    color: #727272;
+}
+.quick-list-button{
+    margin-top: 50px;
+}
+.quick-list-button a{
+    background-color: #FF900E;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
 }
