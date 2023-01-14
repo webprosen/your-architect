@@ -16,6 +16,7 @@
         padding-top: 25px;
     }
     .features-title{
+        font-size: 40px;
         margin-top: 0px;
     }
     .features-left{
@@ -34,6 +35,18 @@
         display: block;
         margin-top: 15px;
     }
+    .some-facts{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .some-facts-title {
+        font-size: 40px;
+    }
+    .sponsor{
+        width: calc(100%);
+        margin-bottom: 35px;
+    }
+    
 }
 
 

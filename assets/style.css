@@ -12,9 +12,6 @@ Common style for all element
     padding: 0 15px;
     margin: auto;
 }
-img{
-    width: 100%;
-}
 
 
 /* --------------
@@ -201,7 +198,10 @@ Header style here
     width: 50%;
     position: relative;
 }
-
+.features-image img{
+    width: 100%;
+    display: inherit;
+}
 .feaures-label{
     display: inline-block;
     text-align: center;
@@ -210,7 +210,7 @@ Header style here
     padding: 15px 30px;
     border-radius: 5px;
     position: absolute;
-    bottom: -50px;
+    bottom: -55px;
     left: -50px;
 }
 .feaures-label h1{
@@ -220,6 +220,102 @@ Header style here
     font-size: 20px;
 }
 
+/* Some fact section style */
+.some-facts{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.some-facts-title{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-bottom: 20px;
+    color: #131313;
+}
+.some-facts-des{
+    color: #727272;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+.score-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+    justify-content: space-around;
+}
+.score-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    width:250px;
+    height: 250px;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.score-box:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px #ccc;
+}
+.score-box img{
+    margin-bottom: 10px;
+}
+.score{
+    font-size: 45px;
+    font-weight: 500;
+    color: #131313;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-out;
+
+}
+.score-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #727272;
+}
 
 
+/* Our sponsor section style */
 
+.our-sponsor{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.our-sponsor-title{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-bottom: 20px;
+    color: #131313;
+}
+.our-sponsor-des{
+    color: #727272;
+    margin: auto;
+    margin-bottom: 45px;
+    max-width: 500px;
+}
+.sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsor img{
+    filter: grayscale(100%);
+}
+
+/* FOOTER START */
+.footer{
+    margin-bottom: 100px;
+}
+.copyright{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #fff4e7;
+}
