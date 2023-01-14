@@ -1,0 +1,26 @@
+@media screen and (max-width:576px){
+    /* Header area css */
+    .nav{
+        flex-direction: column;
+    }
+    .logo{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu ul {
+        justify-content: space-evenly;
+    }
+    .menu li {
+        padding-left: initial;
+    }
+    .richtext {
+        padding-top: 20px;
+    }
+    .richtext-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}

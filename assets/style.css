@@ -1,0 +1,88 @@
+/* -------------------------
+Common style for all element
+--------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+
+
+/* --------------
+Header style here
+-------------- */
+.header{
+    background-color: #fff1e1;
+}
+
+
+/* Menu */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo span{
+    color: #FF900E;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    padding-left: 50px;
+    font-size: 18px;
+}
+.menu a{
+    text-decoration: none;
+    color: #222;
+}
+
+/* Richtext */
+.richtext{
+    text-align: center;
+    padding: 50px 0;
+}
+.richtext-title{
+    font-size: 45px;
+    margin-bottom: 25px;
+    line-height: 55px;
+}
+.richtext-des{
+    margin-bottom: 25px;
+    max-width: 810px;
+    margin: auto;
+}
+.richtext-button{
+    margin-top: 50px;
+}
+.richtext-button a{
+    background-color: #FF900E;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Banner Image */
+.hero-image{
+    padding: 20px 0 50px;
+}
+.hero-image img{
+    width: 100%;
+    display: inherit;
+}
