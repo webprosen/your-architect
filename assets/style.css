@@ -8,11 +8,13 @@ Common style for all element
     font-family: 'Open Sans', sans-serif;
 }
 .wrapper{
-    max-width: 1140px;
+    max-width: 1180px;
     padding: 0 15px;
     margin: auto;
 }
-
+img{
+    width: 100%;
+}
 
 
 /* --------------
@@ -149,3 +151,75 @@ Header style here
     font-size: 20px;
     font-weight: 600;
 }
+
+
+/* Features section style */
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features-title{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 55px;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #131313;
+}
+.features-des{
+    color: #727272;
+    margin-bottom: 30px;
+}
+.features-left{
+    width: 48%;
+    padding-right: 65px;
+}
+.feature{
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px #ccc;
+    border-radius: 5px;
+}
+.feature-list-title{
+    color: #131313;
+    margin-bottom: 10px;
+}
+.feature-list-des{
+    color: #727272;
+}
+
+
+
+.features-right{
+    width: 50%;
+    position: relative;
+}
+
+.feaures-label{
+    display: inline-block;
+    text-align: center;
+    background: #FF900E;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+}
+.feaures-label h1{
+    font-size: 45px;
+}
+.feaures-label p{
+    font-size: 20px;
+}
+
+
+
+

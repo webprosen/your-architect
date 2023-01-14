@@ -12,6 +12,28 @@
         padding-left:initial;
         text-align: center;
     }
+    .features{
+        padding-top: 25px;
+    }
+    .features-title{
+        margin-top: 0px;
+    }
+    .features-left{
+        width: 100%;
+        padding-right: initial;
+
+    }
+    .features-right{
+        width: 100%;
+        text-align: center;
+    }
+    .feaures-label{
+        position: initial;
+        bottom: initial;
+        left: initial;
+        display: block;
+        margin-top: 15px;
+    }
 }
 
 
