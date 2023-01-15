@@ -378,6 +378,9 @@ Header style here
 
 
 /* FOOTER START */
+.footer{
+    margin-bottom: 50px;
+}
 .copyright{
     text-align: center;
     padding-top: 30px;
