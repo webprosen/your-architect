@@ -281,19 +281,19 @@ Header style here
 
 /* Our sponsor section style */
 
-.our-sponsor{
+.our-sponsors{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
 }
-.our-sponsor-title{
+.our-sponsors-title{
     font-size: 45px;
     font-weight: bold;
     line-height: 55px;
     margin-bottom: 20px;
     color: #131313;
 }
-.our-sponsor-des{
+.our-sponsors-des{
     color: #727272;
     margin: auto;
     margin-bottom: 45px;
@@ -309,10 +309,75 @@ Header style here
     filter: grayscale(100%);
 }
 
-/* FOOTER START */
-.footer{
-    margin-bottom: 100px;
+
+/* Completed project */
+.completed-projects{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+.completed-projects-title{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-bottom: 20px;
+    color: #131313;
+    text-align: center;
+
+}
+.completed-projects-des{
+    color: #727272;
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project{
+    width: calc(33.33% - 20px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+}
+.project-title{
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+}
+.project-des{
+    text-align: justify;
+    color: #727272;
+}
+.project img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.project-button{
+    margin-top: 30px;
+}
+.project-button a{
+    background-color: #FF900E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* FOOTER START */
 .copyright{
     text-align: center;
     padding-top: 30px;

@@ -42,16 +42,35 @@
     .some-facts-title {
         font-size: 40px;
     }
+    .our-sponsors {
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
     .sponsor{
         width: calc(100%);
         margin-bottom: 35px;
     }
-    
+    .completed-projects{
+        padding-top: 25px;
+        padding-bottom: 0px;
+    }
+    .project{
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+    }
+    .completed-projects-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .completed-projects-des {
+        margin-bottom: 25px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
 }
 
-
 @media screen and (max-width:576px){
-    /* Header area css */
     .nav{
         flex-direction: column;
     }
@@ -75,12 +94,11 @@
         font-size: 40px;
         line-height: 50px;
     }
-
     .quick-list-left-image {
         width: calc(100%);
         margin-bottom: 20px;
     }
-
-
-
+    .project{
+        width: calc(100%);
+    }
 }
